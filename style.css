@@ -145,7 +145,7 @@ h4{
 footer{
     max-width:100vw;
     height:30vh;
-    background-color:rgb(224, 238, 224);
+   background-color:rgb(244, 245, 244);
     margin-top:10em;
 }
 footer p{
@@ -212,14 +212,14 @@ footer p a{
         left:33%;
     }
     h2{
-        padding:0 0.5em;
+        padding:0 0.1em;
         z-index:1;
         margin-top:-1em;
     }
-    .heading p{
-        font-size:1.2em;
-        padding:0 2em;
-        padding-top:1.5em;
+    heading p{
+        font-size:1em;
+        padding:0 0.4em;
+        padding-top:2em;
     }
     .btn{
         display:flex;
@@ -241,7 +241,7 @@ footer p a{
         padding:0 1em;
     }
     .second p{
-        padding:0 3.5em;
+       padding:0 0.02em;
         padding-top:1em;
     }
     .third{
@@ -289,7 +289,7 @@ footer p a{
         margin-top:5em;
     }
     .featurescont p{
-        padding:0 0.1em;
+        padding:0 2.5em;
     }
     .seventh{
         text-align:center;
@@ -304,7 +304,7 @@ footer p a{
         padding: 0 2em;
     }
     .eight p{
-        padding:0 3em;
+         padding:0 2.8em;
         margin-top:2em;
     }
     footer{
