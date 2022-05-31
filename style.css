@@ -1,0 +1,360 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+html{
+    height:100vh;
+    font-family:'Bai Jamjuree', sans-serif;
+    color:hsl(210, 10%, 33%);
+    background-color: white;
+}
+header{
+    background-image: url("bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width:100vw;
+    height:50vh;
+    position:relative;
+}
+.image img{
+    position:absolute;
+    width:10%;
+    height:20vh;
+    top:20vh;
+    left:45%;
+}
+.heading{
+    text-align:center;
+}
+h2{
+    font-size:2.5em;
+}
+.heading p{
+    color:hsl(201, 11%, 66%);
+    font-size:1.1em;
+    padding-top:2em;
+}
+.btn{
+    text-align:center;
+    margin-top:3em;
+}
+.btn1,
+.btn2{
+    padding:1em;
+    margin:1em;
+    border-radius: 5em;
+    cursor:pointer;
+    font-size:1rem;
+    border:none;
+    width:18%;
+}
+.btn1{
+    background-color:  hsl(171, 66%, 44%);
+    box-shadow:1px 6px 5px  hsla(171, 68%, 42%, 0.815);
+    color:white;
+}
+.btn2{
+    background-color:  hsl(233, 100%, 69%);
+    box-shadow:1px 6px 5px  hsl(233, 97%, 77%);
+    color:white;
+}
+.btn1:hover{
+    opacity:0.8;
+}
+.btn2:hover{
+    opacity:0.8;
+}
+.second{
+    text-align:center;
+    margin-top:6em;
+}
+h3{
+    font-size:2em;
+}
+p{
+    font-size:1em;
+    color:hsl(201, 11%, 66%);
+    padding-top:2rem;
+    line-height:1.5em;
+}
+.third{
+    display:flex;
+    flex-direction:row;
+    margin-top:10em;
+}
+.sidepic img{
+    max-width:100%;
+    height:70vh;
+    margin-left:-1em;
+    margin-right:6em;
+}
+.sidetext{
+    margin-top:1em;
+}
+h4{
+    font-size:1.5em;
+    margin-top:1.5em;
+}
+.fourth{
+    text-align:center;
+    margin-top:10em;
+}
+.phone{
+    text-align:center;
+    margin-top:10em;
+}
+.phone img{
+    max-width:70%;
+    height:70vh;
+}
+.fifth{
+    text-align:center;
+    margin-top:3em;
+}
+.sixth{
+    margin-top:10em;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+.sixth h4{
+    font-size:1.2em;
+    padding-bottom:1.5em;
+}
+.sixth p{
+    padding:0px 19px;
+    line-height:2em;
+    font-size:1em;
+}
+.featurescont{
+    text-align:center;
+}
+.sixth .one{
+    margin-top:-0.4em;
+}
+.seventh{
+    display:flex;
+    margin-top:10em;
+    justify-content:space-evenly;
+}
+.eight{
+    text-align:center;
+    margin-top:10em;
+}
+footer{
+    max-width:100vw;
+    height:30vh;
+    background-color:rgb(224, 238, 224);
+    margin-top:10em;
+}
+footer p{
+    text-align:center;
+    color:hsl(201, 11%, 66%);
+    font-size:0.7em;
+    margin-top:3.5em;
+}
+footer p a{
+    color:hsl(201, 11%, 66%);
+    text-decoration:none;
+}
+.container{
+    display:flex;
+    justify-content:space-evenly; 
+    align-items: center;
+}
+.footer-logo img{
+    max-width:20vw;
+    height:10vh;
+    margin-top:1.5em;
+} 
+.footer-features{
+    margin-top:2em;
+    margin-right:-5em;
+}
+.footer-features a{
+    display:block;
+    padding:0.6em;
+    color:hsl(201, 11%, 66%);
+}
+.footer-features a{
+    text-decoration:none;
+}
+.footer-features-ex a{
+    color:hsl(201, 11%, 66%);
+    text-decoration:none;
+}
+.footer-features-ex{
+    margin-bottom:0.5em;
+}
+.social a{
+    color:hsl(210, 10%, 33%);
+    padding-right:2em;
+}
+/* -----------------------------------------480PX--------------------------------------------------------- */
+@media all and (max-width:480px) {
+    header{
+        background-image: url("bg-header-mobile.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width:100vw;
+        height:70vh;
+        position:relative;
+    }
+    .body-border{
+        margin:0 1em;
+    }
+    .image img{
+        position:absolute;
+        width:30%;
+        height:25vh;
+        top:30vh;
+        left:35%;
+    }
+    h2{
+        padding:0 0.5em;
+        z-index:1;
+        margin-top:-1em;
+    }
+    .heading p{
+        font-size:1.2em;
+        padding:0 2em;
+        padding-top:1.5em;
+    }
+    .btn{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        margin-top:1.2em;
+    }
+    .btn1,
+    .btn2{
+    padding:1em;
+    margin:1em;
+    border-radius: 5em;
+    cursor:pointer;
+    font-size:1rem;
+    border:none;
+    width:70%;
+    }
+    h3{
+        padding:0 1em;
+    }
+    .second p{
+        padding:0 3.5em;
+        padding-top:1em;
+    }
+    .third{
+        display:flex;
+        flex-direction:column;
+        margin-top:5em;
+    }
+    .sidepic img{
+        max-width:90%;
+        height:60vh;
+        margin:0 1em;
+    }
+    .sidetext{
+        margin-top:1em;
+        text-align:center;
+    }
+    h4{
+        font-size:1.3em;
+        margin-top:1em;
+    }
+    .fourth{
+        text-align:center;
+        margin-top:10em;
+    }
+    .fourth p{
+        padding:1.2em 4em;
+    }
+    .phone{
+        margin-top:4em;
+    }
+    .phone img{
+        max-width:90%;
+        height:60vh;
+    }
+    .fifth p{
+        padding:0 4em;
+        padding-top:1em;
+    }
+    .sixth{
+        margin-top:5.3em;
+        display:flex;
+        flex-direction:column;
+    }
+    .featurescont{
+        margin-top:5em;
+    }
+    .featurescont p{
+        padding:0 0.1em;
+    }
+    .seventh{
+        text-align:center;
+        margin-top:5em;
+        display:flex;
+        flex-direction:column;
+    }
+    .class{
+        margin-top:3em;
+    }
+    .eight h3{
+        padding: 0 2em;
+    }
+    .eight p{
+        padding:0 3em;
+        margin-top:2em;
+    }
+    footer{
+        max-width:100vw;
+        height:85vh;
+        margin-top:3em;
+    }
+    footer p{
+        margin-top:0em;
+    }
+    .container{
+        display:flex;
+       flex-direction:column;
+        align-items: center;
+    }
+    .footer-logo img{
+        max-width:20vw;
+        height:10vh;
+        margin-top:2.5em;
+        margin-bottom:2em;
+    } 
+    .footer-features{
+        margin-top:0em;
+        margin-right:0em;
+    
+    }
+    .footer-features a{
+        display:flex;
+        padding:0;
+        color:hsl(201, 11%, 66%);
+        flex-direction:column;
+        padding:0.7em;
+        text-align:center;
+        font-size:1.2em;
+    }
+    .footer-features-ex{
+        margin-bottom:0.5em;
+        font-size:1.2em;
+        padding:0.7em;
+    }
+    .social{
+         margin-left:2em;
+    }
+    .social a{
+        color:hsl(210, 10%, 33%);
+    }
+    .social a i{
+        font-size:2em;
+        margin-top:0.8em;
+    } 
+}
+/* -------------------------------------------------800PX------------------------------------------------ */
+@media all and (max-width:)
